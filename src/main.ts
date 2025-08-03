@@ -17,10 +17,10 @@ const DefaultPreset = definePreset(Aura, {
     colorScheme: {
       light: {
         primary: {
-          color: '{Sky.600}',
+          color: '#222222',
           inverseColor: '#ffffff',
-          hoverColor: '{Sky.700}',
-          activeColor: '{Sky.500}',
+          hoverColor: '#111827',
+          activeColor: '#eeeeee',
         },
       },
     },
