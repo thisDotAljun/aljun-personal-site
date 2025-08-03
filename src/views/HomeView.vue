@@ -1,3 +1,9 @@
 <template>
-  <h1>Home Page</h1>
+  <header class="py-5"></header>
+  <HeroLayout />
+  <footer class="p-12 bg-primary-black"></footer>
 </template>
+
+<script setup lang="ts">
+import HeroLayout from '@/layout/HeroLayout.vue'
+</script>
