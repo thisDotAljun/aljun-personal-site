@@ -1,13 +1,19 @@
 <template>
   <section class="col-start-2 flex flex-col my-auto">
-    <h1 class="font-bold text-primary-black text leading-[1.25] text-[clamp(50px,3vw,64px)]">
-      Hi, I’m Aljun and I’m
-    </h1>
-    <div class="flex items-center">
-      <h1 class="z-20 font-bold leading-[1.25] text-white text-[clamp(50px,3vw,64px)]">
-        a Frontend Developer
+    <div class="space-y-4 sm:space-y-0">
+      <h1
+        class="font-bold text-primary-black text leading-none sm:leading-[1.25] text-[clamp(50px,3vw,64px)]"
+      >
+        Hi, I’m Aljun and I’m
       </h1>
-      <div class="absolute start-0 p-16 sm:p-10 md:p-10 bg-primary-black w-full"></div>
+      <div class="flex items-center">
+        <h1
+          class="z-20 font-bold leading-none sm:leading-[1.25] text-white text-[clamp(50px,3vw,64px)]"
+        >
+          a Frontend Developer
+        </h1>
+        <div class="absolute start-0 p-16 sm:p-10 md:p-10 bg-primary-black w-full"></div>
+      </div>
     </div>
     <p class="text-[20px] text-primary-black leading-[1.5] my-6 text-[clamp(12px,3vw,20px)]">
       I am a Frontend Developer specializing in building web-based applications.<br />
