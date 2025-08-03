@@ -224,4 +224,10 @@
   --font-weight-bold: 700;
   --font-weight-extrabold: 800;
   --font-weight-black: 900;
+  /* Custom Text Theme */
+  --color-primary-black: #222222;
+  --color-primary-grey: #7b7b7b;
+  --color-primary-light-grey: #eeeeee;
+  --color-primary-light: #f8f8f8;
+  --text-heading: 64px;
 }
