@@ -1,6 +1,6 @@
 <template>
   <section class="relative flex flex-col justify-center w-full max-w-9/12 gap-5">
-    <h1 class="font-medium md:ml-auto leading-none">{{ projectName }}</h1>
+    <h1 class="font-medium md:ml-auto leading-[1.25] sm:leading-none">{{ projectName }}</h1>
     <div class="inline-flex flex-wrap justify-start md:justify-end gap-2">
       <Chip
         v-for="(language, key) in languageUse"

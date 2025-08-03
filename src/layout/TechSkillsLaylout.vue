@@ -13,7 +13,7 @@
     <div
       v-for="(el, el_index) in data"
       :key="el_index"
-      class="grid grid-rows-1 md:grid-cols-2 items-center"
+      class="grid grid-rows-1 md:grid-cols-2 items-center gap-6"
     >
       <ImagesShots :src="el.image_path" />
       <ProjectDescription
