@@ -1,0 +1,5 @@
+@tailwind components;
+
+#app {
+  @apply h-full w-full;
+}
