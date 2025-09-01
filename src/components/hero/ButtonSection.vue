@@ -1,5 +1,7 @@
 <template>
-  <div class="flex flex-col items-center sm:flex-row sm:items-start gap-5">
+  <div
+    class="flex flex-col items-center sm:flex-row sm:items-start gap-5 will-change-transform animate-fade-hero-button mb-6"
+  >
     <Button
       :pt="{
         label: 'font-light text-xs',
@@ -9,6 +11,7 @@
       label="Know me more"
       icon="pi pi-arrow-down"
       iconPos="right"
+      @click="scrollTo"
     />
     <Button
       :pt="{
@@ -28,4 +31,9 @@
 
 <script setup lang="ts">
 import Button from 'primevue/button'
+
+const scrollTo = () => {
+  const targetElement = document.getElementById('tech-skill')
+  if (targetElement !== null) targetElement.scrollIntoView({ behavior: 'smooth' })
+}
 </script>

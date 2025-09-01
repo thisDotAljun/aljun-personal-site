@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex flex-col-reverse h-screen lg:grid lg:grid-cols-2 h-full bg-primary-light p-6 gap-10 md:gap-0"
+    class="flex flex-col-reverse h-fit pro-max:h-screen lg:h-screen lg:grid lg:grid-cols-2 bg-primary-light p-6 gap-10 md:gap-0 lg:gap-10 xl:gap-0"
   >
     <ImageSection />
     <IntroductionSection />
