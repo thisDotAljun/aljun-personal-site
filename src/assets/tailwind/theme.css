@@ -230,4 +230,90 @@
   --color-primary-light-grey: #eeeeee;
   --color-primary-light: #f8f8f8;
   --text-heading: 64px;
+
+  /* Animation */
+  --animate-fade-hero-text: fadeHeroText 0.8s ease-out forwards;
+  --animate-fade-hero-subtext:
+    fadeHeroText 0.8s ease-out forwards, fadeHeroSubText 1s ease-out forwards;
+  --animate-fade-hero-bar: fadeHerobar 0.8s ease forwards;
+  --animate-fade-hero-image: fadeHeroImage 0.8s ease-out forwards;
+  --animate-fade-hero-button: fadeHeroButton 1.5s ease-out forwards;
+
+  @keyframes fadeHeroText {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeHeroSubText {
+    0% {
+      color: #f8f8f8;
+    }
+    50% {
+      color: #f8f8f8;
+    }
+    99% {
+      color: #f8f8f8;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeHerobar {
+    0% {
+      transform: translateY(10%);
+      /* width: 0%; */
+      opacity: 0;
+    }
+    50% {
+      /* width: 50%; */
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      /* width: 100%; */
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeHeroImage {
+    0% {
+      transform: translateY(10%);
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeHeroButton {
+    0% {
+      transform: translateY(10%);
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+
+  /* Breakpoints */
+  --breakpoint-surface-duo: 33.75rem;
+  --breakpoint-14-pro-max: 58.25rem;
 }
