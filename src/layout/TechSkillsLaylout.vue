@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col items-center p-6 gap-7">
+  <section id="tech-skill" class="flex flex-col items-center p-6 gap-7">
     <div class="text-center">
       <h1>Developed Project</h1>
       <p class="text-primary-black text-[clamp(12px,3vw,15px)]">
@@ -14,6 +14,7 @@
       v-for="(el, el_index) in data"
       :key="el_index"
       class="grid grid-rows-1 md:grid-cols-2 items-center gap-6"
+      v-animate-on-scroll
     >
       <ImagesShots :src="el.image_path" />
       <ProjectDescription

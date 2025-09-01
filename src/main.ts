@@ -11,6 +11,7 @@ import PrimeVue from 'primevue/config'
 import { definePreset } from '@primeuix/themes'
 import Aura from '@primeuix/themes/aura'
 import { ConfirmationService, KeyFilter, Ripple, ToastService, Tooltip } from 'primevue'
+import { vAnimateOnScroll } from './directives/onScroll'
 
 const DefaultPreset = definePreset(Aura, {
   semantic: {
@@ -49,5 +50,6 @@ app.use(ToastService)
 app.directive('tooltip', Tooltip)
 app.directive('ripple', Ripple)
 app.directive('keyfilter', KeyFilter)
+app.directive('animate-on-scroll', vAnimateOnScroll)
 
 app.mount('#app')
