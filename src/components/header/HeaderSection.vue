@@ -22,7 +22,7 @@
       </div>
       <div class="inline-flex gap-[8px]">
         <i class="pi pi-phone text-primary-grey"></i>
-        <h3 class="text-xs text-primary-grey font-semibold">+639216312810</h3>
+        <h3 class="text-xs text-primary-grey font-semibold select-all">+639216312810</h3>
       </div>
       <Button
         icon="pi pi-file-pdf"
