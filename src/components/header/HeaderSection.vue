@@ -37,6 +37,9 @@
             text: 'text-[10px]',
           },
         }"
+        as="a"
+        download
+        href="/files/ALJUN APARENTE CORTINA.pdf"
       />
     </div>
   </header>
